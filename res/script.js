@@ -13,6 +13,16 @@ $(function () {
     }
     */
 
+    var dropDown = document.querySelector('.js-drop-down');
+
+    dropDown.addEventListener('click', function( event ){
+    this.classList.toggle('dropdown-content--visible');
+    });
+
+    dropDown.addEventListener('click', function( event ){
+    this.classList.toggle('dropdown_content--visible');
+    });
+
     function getPosts() {
       return $.get({
         url: "posts.json",
