@@ -1,51 +1,61 @@
 [{
 		"postid": "1",
 		"posttime": "Sept 18, 2020 15:16",
-		"posttext": "I think it's going to rain"
+		"posttext": "I think it's going to rain",
+		"img": "images/rain.jpg"
 	},
 	{
 		"postid": "2",
 		"posttime": "Sept 18, 2020 15:16",
-		"posttext": "Which weighs more, a pound of feathers or a pound of bricks?"
+		"posttext": "Which weighs more, a pound of feathers or a pound of bricks?",
+		"img": ""
 	},
 	{
 		"postid": "3",
 		"posttime": "Sept 18, 2020 17:18",
-		"posttext": "Felt cute, might delete later"
+		"posttext": "Felt cute, might delete later",
+		"img": "images/batman.jpg"
 	},
 	{
 		"postid": "4",
 		"posttime": "Sept 18, 2020 20:16",
-		"posttext": "It's a nice weather today!"
+		"posttext": "It's a nice weather today!",
+		"img": "images/sunny.jpg"
 	},
 	{
 		"postid": "5",
 		"posttime": "Sept 19, 2020 9:32",
-		"posttext": "What should i wear today?"
+		"posttext": "What should i wear today?",
+		"img": ""
 	},
 	{
 		"postid": "6",
 		"posttime": "Sept 19, 2020 12:42",
-		"posttext": "Can someone help me with my homework?"
+		"posttext": "Can someone help me with my homework?",
+		"img": ""
 	},
 	{
 		"postid": "7",
 		"posttime": "Sept 19, 2020 13:01",
-		"posttext": "I think today is going to be great day!"
+		"posttext": "I think today is going to be great day!",
+		"img": ""
 	},
 	{
 		"postid": "8",
 		"posttime": "Sept 19, 2020 18:57",
-		"posttext": "What is the purpose of Brexit?"
+		"posttext": "What is the purpose of Brexit?",
+		"img": ""
 	},
 	{
 		"postid": "9",
 		"posttime": "Sept 20, 2020 11:26",
-		"posttext": "Where should i go to a trip?"
+		"posttext": "Where should i go to a trip?",
+		"img": "images/worldmap.jpg"
 	},
 	{
 		"postid": "10",
 		"posttime": "Sept 20, 2020 22:13",
-		"posttext": "Does fate exist? If so, do we have free will?"
+		"posttext": "Does fate exist? If so, do we have free will?",
+		"img": ""
 	}
 ]

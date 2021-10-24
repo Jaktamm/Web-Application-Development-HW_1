@@ -1,7 +1,7 @@
 $(function () {
     function getPosts() {
       return $.get({
-        url: "https://jsonkeeper.com/b/TJ06",
+        url: "https://api.npoint.io/d064e2c9349997dea20f",
         success: function (response) {
           return response;
         },
@@ -17,11 +17,15 @@ $(function () {
           $(".flex-container").append(`
         <div class="post">
             <div class="post-header">
+                <img src="images/profile.jpg" class="avatar">
                 ${post.posttime}
+            </div>
+            <div class="img-container">
+                <img src="${post.img}">
             </div>
             <h4>${post.posttext}</h4>
             <div class="btm-container">
-                <a href=""><img src="like.png" alt="like"></a>
+                <a href=""><img src="images/like.png" alt="like"></a>
             </div>
         </div>
         `);
