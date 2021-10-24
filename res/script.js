@@ -1,8 +1,11 @@
 $(function () {
     /*
+    //As the get request from posts.json file works only when the webpage is opened with a live server,
+    //then the default option is to use the web endpoint to gather the data from json.
+
     function getPosts() {
       return $.get({
-        url: "https://api.npoint.io/d064e2c9349997dea20f",
+        url: "posts.json",
         success: function (response) {
           return response;
         },
@@ -25,7 +28,7 @@ $(function () {
 
     function getPosts() {
       return $.get({
-        url: "posts.json",
+        url: "https://api.npoint.io/d064e2c9349997dea20f",
         success: function (response) {
           return response;
         },
