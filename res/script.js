@@ -1,7 +1,21 @@
 $(function () {
+    /*
     function getPosts() {
       return $.get({
         url: "https://api.npoint.io/d064e2c9349997dea20f",
+        success: function (response) {
+          return response;
+        },
+        error: function (e) {
+          alert(`error retrieving posts: ${JSON.stringify(e)}`);
+        },
+      });
+    }
+    */
+
+    function getPosts() {
+      return $.get({
+        url: "posts.json",
         success: function (response) {
           return response;
         },

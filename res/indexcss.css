@@ -5,6 +5,7 @@ body {
 }
 
 .navbar {
+  position: fixed;
   height: 50px;
   width: 100%;
   padding: 10px 10px;
