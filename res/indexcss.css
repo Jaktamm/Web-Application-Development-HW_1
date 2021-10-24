@@ -6,7 +6,7 @@ body {
 
 .navbar {
   position: fixed;
-  height: 50px;
+  height: 70px;
   width: 100%;
   padding: 10px 10px;
   overflow: hidden;
@@ -21,17 +21,17 @@ form > input {
   margin-left: 7%;
 }
 
-.navbar > #logo {
+.navbar >  #logo {
   padding-right: 10%;
   max-width: 100%;
   max-height: 100%;
   float: left;
 }
 
-.navbar > #profile {
+.navbar > .dropdown > #profile {
   padding-left: 10%;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 100px;
+  max-height: 100px;
   float: right;
 }
 
@@ -97,4 +97,22 @@ div + h4 {
 
 div ~ h4 {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  transition: all 250ms ease;
+  opacity: 0;
+  z-index: 1;
+}
+
+.dropdown-content--visible > div{
+  display: block;
+  float: right;
+  opacity: 1;
 }
